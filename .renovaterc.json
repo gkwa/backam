@@ -6,7 +6,9 @@
       "automerge": true,
       "automergeStrategy": "merge-commit",
       "matchDepTypes": ["*"],
+      "prConcurrentLimit": 0,
       "prCreation": "not-pending",
+      "prHourlyLimit": 0,
       "prNotPendingHours": 1,
       "recreateWhen": "always"
     }
@@ -14,5 +16,7 @@
   "platformAutomerge": true,
   "postUpdateOptions": ["gomodTidyE", "gomodMassage", "gomodUpdateImportPaths"],
   "prConcurrentLimit": 0,
-  "prHourlyLimit": 0
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0,
+  "prNotPendingHours": 1
 }
